@@ -19,9 +19,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />I am a Full Stack Developer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I am a UI/UX Designer and a Full Stack Developer currently based in Johannesburg, I am also a collaborative team player and a good problem solver.
           </p>
           <div className="flex justify-center">
             <a
