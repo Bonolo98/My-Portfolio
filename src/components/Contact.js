@@ -14,6 +14,7 @@ export default function Contact() {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset()
   };
 
 
@@ -46,12 +47,12 @@ export default function Contact() {
         <form
        
           name="test"
-          ref={form} onSubmit={sendEmail}
+          ref={form} onSubmit={sendEmail} 
           className="flex-auto justify-center">
-          <h2 className="text-black sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-gray-600 sm:text-4xl text-3xl mb-1 font-medium title-font flex justify-center">
             Hire Me
           </h2>
-          <p className="leading-relaxed text-black mb-5">
+          <p className="leading-relaxed text-black mb-5 flex justify-center">
             If you would like to enquire more or hire, please provide your details below and click on"Submit".
           </p>
           <div className="relative mb-4">
@@ -62,7 +63,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-600 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
           
             />
           </div>

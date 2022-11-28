@@ -17,9 +17,9 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-back">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-black">
+          {/* <a href="#testimonials" className="mr-5 hover:text-black">
             Testimonials
-          </a>
+          </a> */}
         </nav>
         <a
           href="#contact"
