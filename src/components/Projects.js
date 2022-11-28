@@ -15,7 +15,7 @@ export default function Projects() {
             These are the apps I have worked on, from designing the User interface, developing and hosting.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex justify-center flex-wrap -m-4">
           {projects.map((project) => (
             <a
               href={project.link}

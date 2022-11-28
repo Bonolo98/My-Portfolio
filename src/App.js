@@ -8,12 +8,13 @@ import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-white body-font">
+    <main className="text-gray-400 bg-gray-100 body-font">
       <Navbar />
       <About />
-      <Projects />
       <Skills />
-      <Testimonials />
+      <Projects />
+ 
+      {/* <Testimonials /> */}
       <Contact />
     </main>
   );

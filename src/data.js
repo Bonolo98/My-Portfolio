@@ -1,10 +1,10 @@
 export const projects = [
   {
     title: "SneakerWear",
-    subtitle: "MERN Stack",
+    subtitle: "",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+      "Sneakerwear is an e-commerce web app selling sneakers, the site allows you to create account, add items to the cart and place an order",
+    image: "./SNEAKERWEAR.gif",
     link: "https://sneakerwear.netlify.app/",
   },
   // {
@@ -51,10 +51,19 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Angular 2+",
-  "NodeJS(express)",
-  "PostgreSQL",
-  "Tailwind UI",
+  {  title: "Javascript",
+  subtitle: "",
+  description:
+    "Sneakerwear is an e-commerce web app selling sneakers, the site allows you to create account, add items to the cart and place an order",
+  image: "../public/Javascript.png",
+  link: "",
+}
+// {/* <img src={require('../public/Javascript.png')}/> */}
+  // "JavaScript",
+  // "React",
+  // "Angular 2+",
+  // "NodeJS(express)",
+  // "PostgreSQL",
+  // "Tailwind UI",
 ];
+
