@@ -43,7 +43,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="container px-5 py-10 mx-auto ">
         <form
        
           name="test"
@@ -53,9 +53,16 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed text-black mb-5 flex justify-center">
-            If you would like to enquire more or hire, please provide your details below and click on"Submit".
+            If you would like to enquire more or hire, please provide your details below and click on"Send".
           </p>
-          <div className="relative mb-4">
+
+
+
+
+<div className='flex space-x-5'>
+
+<div className=''>
+          <div className="relative mb-4 w-1/2">
             <label htmlFor="name" className="leading-7 text-sm text-black">
               Name
             </label>
@@ -63,11 +70,11 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-gray-600 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-96 bg-gray-600 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
           
             />
           </div>
-          <div className="relative mb-4">
+          <div className="relative mb-4 w-1/2">
             <label htmlFor="email" className="leading-7 text-sm text-black">
               Email
             </label>
@@ -75,11 +82,46 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-gray-600 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-96 bg-gray-600 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
 
             />
           </div>
-          <div className="relative mb-4">
+          <div className="relative mb-4 w-1/2">
+            <label
+              htmlFor="message"
+              className="leading-7 text-sm text-black">
+              Message
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              className="w-96 bg-gray-600 rounded border border-gray-700 focus:border-gray-400 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              
+            />
+          </div>
+          <button
+            type="submit"
+            className="text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded text-lg w-96 snap-center">
+            Send
+          </button>
+          </div>
+
+
+
+          <div className=''>
+          <div className="relative mb-4 w-1/2">
+            <label htmlFor="name" className="leading-7 text-sm text-black">
+              0648621677
+            </label>
+            
+          </div>
+          <div className="relative mb-4 w-1/2">
+            <label htmlFor="email" className="leading-7 text-sm text-black">
+              bonolosolomon9846@gmail.com
+            </label>
+           
+          </div>
+          <div className="relative mb-4 w-1/2">
             <label
               htmlFor="message"
               className="leading-7 text-sm text-black">
@@ -94,9 +136,26 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded text-lg">
-            Submit
+            className="text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded text-lg w-96 snap-center">
+            Send
           </button>
+
+
+
+
+
+          </div>
+          
+
+
+
+
+
+  
+</div>
+          
+          
+          
         </form>
       </div>
     </section>

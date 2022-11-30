@@ -1,4 +1,5 @@
 import React from "react";
+import resume from '../Assets/Angular.png'
 
 export default function About() {
   return (
@@ -30,12 +31,21 @@ export default function About() {
             ideas to ultimately guide my team to achieve a combined goal.
           </p>
 
+          <div>
+          <p className=" mb-10">
+            I am also an innovative and creative individual, I love to take on
+            challenges. I enjoys exploring new technologies and communicating
+            ideas to ultimately guide my team to achieve a combined goal.
+          </p>
+          </div>
+
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href={resume}
+              download
               className=" text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400  rounded text-lg"
             >
-              Contact Me Now
+              Download CV
             </a>
             <a
               href="#projects"
