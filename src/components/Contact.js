@@ -108,20 +108,27 @@ export default function Contact() {
 
 
 
-          <div className=''>
+          <div className='mt-5'>
           <div className="relative mb-4 w-1/2">
-            <label htmlFor="name" className="leading-7 text-sm text-black">
+          <label htmlFor="name" className="leading-7 text-sm text-black ">
+              Call/Whatsapp
+            </label> 
+            <h4 htmlFor="name" className="leading-7 text-sm text-black font-bold">
               0648621677
-            </label>
-            
+            </h4>
           </div>
+         
           <div className="relative mb-4 w-1/2">
             <label htmlFor="email" className="leading-7 text-sm text-black">
-              bonolosolomon9846@gmail.com
+              Email
             </label>
-           
+            <h4 htmlFor="email" className="leading-7 text-sm text-black font-bold">
+              bonolosolomon9846@gmail.com
+            </h4>
           </div>
-          <div className="relative mb-4 w-1/2">
+         
+
+          {/* <div className="relative mb-4 w-1/2">
             <label
               htmlFor="message"
               className="leading-7 text-sm text-black">
@@ -131,19 +138,13 @@ export default function Contact() {
               id="message"
               name="message"
               className="w-full bg-gray-600 rounded border border-gray-700 focus:border-gray-400 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              
-            />
+              />
           </div>
-          <button
+          {/* <button
             type="submit"
             className="text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded text-lg w-96 snap-center">
             Send
-          </button>
-
-
-
-
-
+          </button> */}
           </div>
           
 
