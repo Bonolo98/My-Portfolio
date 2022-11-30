@@ -59,7 +59,7 @@ export default function Contact() {
 
 
 
-<div className='flex space-x-5'>
+<div className='flex space-x-5 md:flex-row'>
 
 <div className=''>
           <div className="relative mb-4 w-1/2">
@@ -106,10 +106,8 @@ export default function Contact() {
           </button>
           </div>
 
-
-
-          <div className='mt-5'>
-          <div className="relative mb-4 w-1/2">
+<div className='mt-5 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16      md:items-start md:text-left mb-16 md:mb-0 '>
+          <div className="relative mb-4 w-full">
           <label htmlFor="name" className="leading-7 text-sm text-black ">
               Call/Whatsapp
             </label> 
@@ -147,12 +145,6 @@ export default function Contact() {
           </button> */}
           </div>
           
-
-
-
-
-
-  
 </div>
           
           

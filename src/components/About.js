@@ -32,11 +32,11 @@ export default function About() {
           </p>
 
           <div>
-          <p className=" mb-10">
+          {/* <p className=" mb-10">
             I am also an innovative and creative individual, I love to take on
             challenges. I enjoys exploring new technologies and communicating
             ideas to ultimately guide my team to achieve a combined goal.
-          </p>
+          </p> */}
           </div>
 
           <div className="flex justify-center">
